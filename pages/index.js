@@ -15,7 +15,7 @@ export default function Home() {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Main />
       <About />
