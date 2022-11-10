@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Deepak | Resume</title>
         <meta
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
@@ -49,15 +49,13 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          A dynamic results-driven Software Engineer with over 12 years of
+          experience in Designing, Architecting, and Implementing IT Solutions
+          with an ability to easily adopt new and emerging technologies to meet
+          business challenges; An analytical thinker and rapid problem solver;
+          Demonstrates strong work ethics, excellent written and communication
+          skills along with impressive track record of delivering success in
+          numerous IT projects which involved both onsite and offshore models.
         </p>
 
         {/* Skills */}
@@ -65,23 +63,30 @@ const resume = () => {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
-            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>Fullstack Web Developer
+            <span className="px-2">|</span>HTML
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>Node JS
+            <span className="px-2">|</span>Express
+            <span className="px-2">|</span>RESTAPI
+            <span className="px-2">|</span>D3.JS
+            <span className="px-2">|</span>Angular
+            <span className="px-2">|</span>jQuery
             <span className="px-2">|</span>SQL
             <span className="px-2">|</span>NoSQL
             <span className="px-2">|</span>Redux
+            <span className="px-2">|</span>Bootstrap
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
-            <span className="px-2">|</span> RESTAPI
+            <span className="px-2">|</span>Material-UI
+            <span className="px-2">|</span>Material-UI
+            <span className="px-2">|</span>Git
           </p>
           <p className="py-2">
             <span className="font-bold">Amazon Web Services</span>
-            <span className="px-2">|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className="px-2">|</span>AWS Certified Developer Associate
           </p>
         </div>
 
@@ -91,28 +96,32 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">INFINITE TECH</span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="font-bold italic">JP Morgan Chase</span>
+            <span className="px-2">|</span>Bangalore, India
           </p>
           <p className="py-1 italic">
-            Front End Web Developer & Web Master (2013 - Current)
+            Senior Software Engineer (2017 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Interacting with clients for gathering business needs, functional
+              and high-level technical requirements and finalizing technical /
+              functional specifications, HLD and LLD for the project
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Designing detailed technical components utilizing high-level
+              architecture, design patterns and reusable code, considering real
+              time constraints, functional & non-functional requirements
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Employing the best practices for coding, architecture, and
+              security; holding scrum calls and updating on sprint status
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Providing post-implementation, application maintenance and
+              enhancement support to the client with regard to the software
+              application; ensuring all solutions are scalable, extensible &
+              available from architecture standpoint
             </li>
           </ul>
         </div>
@@ -121,65 +130,75 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">
-              Teaching & Mentoring Web Development
+              Tata Consultancy Services Ltd
             </span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="px-2">|</span>Bangalore, India / New Jersey, USA
           </p>
-          <p className="py-1 italic">
-            Code Commerce - Youtube Channel (2021 - Current)
-          </p>
+          <p className="py-1 italic">IT Analyst (2011 - 2017)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+              Designed and developed enterprise large scale, distributed,
+              performance oriented and technically sophisticated, complex
+              applications.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Communicated with product managers and UX designers to translate
+              project requirements and business objectives into polished user
+              interfaces.
+            </li>
+            <li>
+              Developed many CRM, Dashboards, Mirco Blogging and Analytical tool
+              by using my programming capabilities in HTML, CSS, JavaScript and
+              other libraries like Jquery, Bootstrap, React, Angular, D3.
+            </li>
+            <li>
+              Collaborated with teammates to deliver valuable features meeting
+              business and customer needs.
+            </li>
+            <li>Managed and mentored a small team of developers.</li>
+            <li>
+              Worked closely with Devops team to implement and maintain CI/CD
+              practices.
+            </li>
+            <li>
+              Tested applications and performed troubleshooting prior to
+              deployment.
+            </li>
+            <li>
+              Collaborated with in-house UX designers to create sleek and
+              innovative UI designs.
             </li>
           </ul>
         </div>
 
         {/*  */}
         <h5 className="text-center underline text-[18px] py-4">
-          Other Professional Experience
+          Other Engagements
         </h5>
 
         {/* Experience */}
         <div className="py-6">
-          <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
-          </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Won prize at JP Morgan Global Hackathon Event 2018</li>
+            <li>Conferred with Best Team Player award in TCS</li>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Instructor for Master of Scince in Computer students, by training
+              them Programming fundamentals and assisted them in building their
+              final year academic projects
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+              Recognized for actively volunteering in many CSR initiatives like
+              <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+                <li>Teaching Government School children</li>
+                <li>Making audio contents for visually impaired people</li>
+                <li>
+                  Enabling office security Guards with basics of spoken English
+                </li>
+              </ul>
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Received first prize in National level MechPrize competition for
+              presenting paper on Claytronics
             </li>
           </ul>
         </div>
