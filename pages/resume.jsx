@@ -1,6 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -20,7 +20,7 @@ const resume = () => {
           <h2 className="text-center">Deepak Lokare</h2>
           <div className="flex">
             <a
-              href="https://www.linkedin.com/in/deepakl24/"
+              href="https://www.linkedin.com/in/deepaklokare/"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,13 +49,13 @@ const resume = () => {
           </div>
         </div>
         <p>
-          A dynamic results-driven Software Engineer with over 12 years of
-          experience in Designing, Architecting, and Implementing IT Solutions
-          with an ability to easily adopt new and emerging technologies to meet
-          business challenges; An analytical thinker and rapid problem solver;
-          Demonstrates strong work ethics, excellent written and communication
-          skills along with impressive track record of delivering success in
-          numerous IT projects which involved both onsite and offshore models.
+          Lead Full Stack Web Developer with 13+ years of experience,
+          specializing in building cloud-native (AWS), high-quality, scalable
+          web applications and SaaS products. Proficient in React, Redux (6
+          yrs), Node.js/Express/Nest (3 yrs), NextJS (1 year) and Angular (3
+          yrs) with a strong commitment to mentoring junior engineers and
+          leading technical innovations by leveraging modern web technologies
+          and improve user experience.
         </p>
 
         {/* Skills */}
@@ -63,25 +63,26 @@ const resume = () => {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Fullstack Web Developer
-            <span className="px-2">|</span>HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>Fullstack Web Development
+            <span className="px-2">|</span>JavaScript
+            <span className="px-2">|</span>TypeScript
             <span className="px-2">|</span>React
+            <span className="px-2">|</span>Redux
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>Node JS
             <span className="px-2">|</span>Express
+            <span className="px-2">|</span>NestJS
             <span className="px-2">|</span>RESTAPI
-            <span className="px-2">|</span>D3.JS
             <span className="px-2">|</span>Angular
-            <span className="px-2">|</span>jQuery
-            <span className="px-2">|</span>SQL
-            <span className="px-2">|</span>NoSQL
-            <span className="px-2">|</span>Redux
+            <span className="px-2">|</span>PostgreSQL
+            <span className="px-2">|</span>MongoDB
+            <span className="px-2">|</span>HTML
+            <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Bootstrap
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span>Material-UI
-            <span className="px-2">|</span>Material-UI
+            <span className="px-2">|</span>Material UI
+            <span className="px-2">|</span>Microservices
+            <span className="px-2">|</span>Micro Frontends
             <span className="px-2">|</span>Git
           </p>
           <p className="py-2">
@@ -93,15 +94,78 @@ const resume = () => {
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
-        {/* Experience */}
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">CBRE</span>
+            <span className="px-2">|</span>Dallas, TX
+          </p>
+          <p className="py-1 italic">
+            Senior Software Engineer (2023 - Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Contributing to the development of a next-gen PaaS solution,
+              enhancing project management efficiency for 1000+ CBRE project
+              managers.
+            </li>
+            <li>
+              Generating essential reports such as OrderBook, Revenue, Sales,
+              and Monday Morning Meeting (MMM) reports by integrating with their
+              ERP systems, providing critical insights and improving business
+              processes.
+            </li>
+            <li>
+              Enabling the features to support CBREs new initiatives, including
+              the deployment of 10,000+ EV charging stations across the USA.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Zyyah</span>
+            <span className="px-2">|</span>Dallas, TX
+          </p>
+          <p className="py-1 italic">Lead Software Engineer (2023 - 2024)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Developed innovative features that unified homeowners, real estate
+              agents, and service providers on a single platform, enhancing user
+              engagement through end-to- end cloud-native solutions using
+              NextJS, MongoDB, Supabase, and Auth0, while ensuring best
+              practices and high-quality code standards.
+            </li>
+            <li>
+              Developed a comprehensive reporting dashboard, including Sales TAX
+              and cost reports, which provided crucial insights into revenue
+              generation and helped in strategizing to increase customer
+              engagement.
+            </li>
+            <li>
+              Integrated with the SISU API platform to build a customizable
+              dashboard of widgets using microfrontend architecture.
+            </li>
+            <li>
+              Developed a community blog post feature similar to Quora, allowing
+              real estate agents to post FAQs and enabling moderators to manage
+              and respond to queries. Research, evaluate, and document
+              third-party integrations like Stripe, Google Places API, SendGrid
+              etc.
+            </li>
+            <li>
+              Cultivating a culture of continuous learning and improvement,
+              mentoring 5 junior developers and providing regular code reviews
+              and feedback.
+            </li>
+          </ul>
+        </div>
+
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">JP Morgan Chase</span>
-            <span className="px-2">|</span>Bangalore, India
           </p>
-          <p className="py-1 italic">
-            Senior Software Engineer (2017 - Current)
-          </p>
+          <p className="py-1 italic">Software Engineer III (2017 - 2023)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Interacting with clients for gathering business needs, functional
@@ -132,9 +196,8 @@ const resume = () => {
             <span className="font-bold italic">
               Tata Consultancy Services Ltd
             </span>
-            <span className="px-2">|</span>Bangalore, India / New Jersey, USA
           </p>
-          <p className="py-1 italic">IT Analyst (2011 - 2017)</p>
+          <p className="py-1 italic">Software Engineer II (2011 - 2017)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Designed and developed enterprise large scale, distributed,

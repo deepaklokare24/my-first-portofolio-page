@@ -10,8 +10,12 @@ import Github from "../public/assets/skills/github1.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import NodeJS from "../public/assets/skills/node.png";
 import AWS from "../public/assets/skills/aws.png";
-import SQL from "../public/assets/skills/sql.png";
+import PostgreSQL from "../public/assets/skills/postgresql.svg";
 import mongoDB from "../public/assets/skills/mongo.png";
+import typescript from "../public/assets/skills/typescript.png";
+import express from "../public/assets/skills/expressjs.png";
+import nestjs from "../public/assets/skills/nestjs.png";
+import Angular from "../public/assets/skills/angular.png";
 
 const Skills = () => {
   return (
@@ -55,6 +59,16 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={typescript} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>TypeScript</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={ReactImg} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -85,10 +99,40 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={Angular} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Angular</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={NodeJS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>NodeJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={express} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>ExpressJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={nestjs} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>NestJS</h3>
               </div>
             </div>
           </div>
@@ -105,10 +149,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={SQL} width="64px" height="64px" alt="/" />
+                <Image src={PostgreSQL} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>SQL</h3>
+                <h3>PostgreSQL</h3>
               </div>
             </div>
           </div>

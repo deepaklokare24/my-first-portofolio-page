@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import AboutImg from "../public/assets/aboutme.jpeg";
 
 const About = () => {
@@ -13,24 +13,66 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialize in building responsive web applications that connect
-            with API’s and other backend technologies. I’m passionate about
-            learning new technologies and understand there is more than one way
-            to accomplish a task. Though I am most proficient in building
-            front-end applications using HTML, CSS, Javascript, and React, I
-            have familiarized myself with backend development using Node,
-            Express, Java and various AWS services. I am a quick learner and can
-            pick up new tech stacks as needed. I believe that being a great
-            developer is not using one specific language, but choosing the best
-            tool for the job.
+            I'm a Lead software engineer with over 13 years of experience
+            driving complex software initiatives from conception through
+            delivery. I have honed my skills in creating scalable, cloud-native
+            applications that drive business growth and enhance user experience.
+            I am most skilled and passionate about React, Redux, Node.js,
+            NextJS, Angular, and a deep understanding of AWS cloud services. My
+            passion lies in mentoring junior engineers, fostering a culture of
+            continuous learning, and leading by example in the adoption of best
+            practices and technical innovation.
           </p>
           <p className="py-2 text-gray-600">
-            I started my developement journey in 2011 managing multiple
-            applications such as CRM, Analytical Tools and Dashboards. I have
-            experience working directly with clients and taking mock wireframes
-            all the way to deployed applications. In my spare time I would love
-            to spend time with my family and I enjoy listening to podcasts and
-            always exicited to know latest trends in technology.
+            Core Qualifications:
+            <ul style={{ listStyle: "inside" }}>
+              <li>
+                Deep expertise across full-stack - JavaScript, Typescript,
+                React, Node.js, cloud, databases
+              </li>
+              <li>Led projects end-to-end from architecture through launch</li>
+              <li>Passionate about mentoring and unlocking talent</li>
+            </ul>
+          </p>
+          <p className="py-2 text-gray-600">
+            Leadership Capabilities:
+            <ul style={{ listStyle: "inside" }}>
+              <li>Managed onsite and remote teams of up to 5 to 6 engineers</li>
+              <li>
+                Championed best practices adoption to minimize technical debt
+              </li>
+              <li>
+                Navigated complex stakeholder landscapes to achieve buy-in
+              </li>
+              <li>
+                Facilitating technical and strategic planning sessions that
+                align with agile methodologies
+              </li>
+              <li>Managing cross-functional teams</li>
+              <li>Strong verbal and written communication skills</li>
+            </ul>
+          </p>
+          <p className="py-2 text-gray-600">
+            Passions:
+            <ul style={{ listStyle: "inside" }}>
+              <li>
+                Pushing innovation - proofs-of-concept with bleeding-edge
+                technologies
+              </li>
+              <li>Community building - organizing talks, hackathons</li>
+              <li>
+                Enabling others - coaching teammates hands-on and clarifying
+                blockers
+              </li>
+            </ul>
+          </p>
+          <p className="py-2 text-gray-600">
+            I welcome opportunities to make a significant, enterprise-wide
+            positive impact through strategic engineering programs, shaping the
+            future of technology solutions. I'm always open to connecting with
+            like-minded professionals who are passionate about using software to
+            change the world. Let's explore how we can drive innovation
+            together.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">

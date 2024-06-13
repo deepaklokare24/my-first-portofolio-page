@@ -9,6 +9,8 @@ import click2callImg from "../public/assets/projects/click2call.png";
 import chimeInsightsImg from "../public/assets/projects/chimeInsights.png";
 import echoImg from "../public/assets/projects/echo.png";
 import chorusImg from "../public/assets/projects/chorus.png";
+import zyyahImg from "../public/assets/projects/zyyah.png";
+import cbreImg from "../public/assets/projects/cbre.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,6 +22,18 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="CBRE Project Management and Reporting Tool"
+            backgroundImg={cbreImg}
+            projectUrl="/cbre"
+            tech="React, Redus, NestJS, Microservices, PostgreSQL, MongoDB, Prisma, Azure DevOps, Docker, AWS"
+          />
+          <ProjectItem
+            title="Zyyah App"
+            backgroundImg={zyyahImg}
+            projectUrl="/zyyah"
+            tech="NextJS, React, React Query, MongoDB, Supabase, Auth0, AWS"
+          />
           <ProjectItem
             title="Outlook Web Add-in"
             backgroundImg={webaddinImg}
